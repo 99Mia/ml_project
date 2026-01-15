@@ -1,5 +1,0 @@
-# RUL Prediction
-
-### Regression
-
-### LSTM
