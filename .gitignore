@@ -1,0 +1,34 @@
+# ===============================
+# Data & Model (DO NOT COMMIT)
+# ===============================
+data/
+dataset/
+datasets/
+model/
+models/
+checkpoints/
+artifacts/
+
+# ===============================
+# Cache & Temp
+# ===============================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+cache/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
