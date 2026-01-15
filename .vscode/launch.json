@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Raw Pipeline",
+            "type": "python",
+            "request": "launch",
+            "module": "data_pipeline.sensor.raw.run_raw_pipeline",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}

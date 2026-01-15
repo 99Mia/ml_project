@@ -1,0 +1,19 @@
+
+# sensor 데이터 파생 feature 생성 옵션
+# 담는 내용 : 어떤 파생 feature를 만들지 (delta_temp, delta_tool_wear)
+# rolling 계산 관련 파라미터 (window)
+
+# 실제 역할 : raw_sensor_clean 데이터를 기반으로 추가 feature를 만들 때 쓰임
+# rule_anomaly.yaml : 이거로 이상치 감지할 거야, db에 추가하는 컬럼은 이거야
+# features.yaml -> 이거 컬럼을 파생시켜서 분석용 데이터를 만들꺼야 
+
+
+
+sensor:
+  sensor_delta_temp: true
+  sensor_delta_tool_wear: false
+  sensor_tool_wear_min_ewma : true 
+  sensor_tool_wear_min_std : true
+
+rolling:
+  window: 5

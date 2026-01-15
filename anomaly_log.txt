@@ -1,0 +1,193 @@
+2026-01-12 18:42:08,023 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:08,024 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:42:08,024 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:42:08,024 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:08,024 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:42:08,025 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:42:08,249 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:42:08,250 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:42:08,251 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:42:16,220 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:16,220 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:42:16,220 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:42:16,220 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:16,221 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:42:16,221 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:42:16,449 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:42:16,450 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:42:16,451 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:42:58,747 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:58,748 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:42:58,748 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:42:58,748 - INFO - package: mysql.connector.plugins
+2026-01-12 18:42:58,748 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:42:58,749 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:42:58,981 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:42:58,982 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:42:58,983 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:47:33,597 - INFO - package: mysql.connector.plugins
+2026-01-12 18:47:33,597 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:47:33,597 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:47:33,598 - INFO - package: mysql.connector.plugins
+2026-01-12 18:47:33,598 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:47:33,599 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:47:33,848 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:47:33,850 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:47:33,851 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:47:33,852 - INFO -      rotational_speed_rpm
+50                   2861
+194                  2678
+298                  2129
+305                  2129
+344                  2448
+2026-01-12 18:47:33,856 - INFO - torque_nm rule 이상치 수: 25
+2026-01-12 18:47:33,857 - INFO -      torque_nm
+50         4.6
+463        4.2
+603       71.6
+847        5.6
+880       76.2
+2026-01-12 18:47:33,861 - INFO - tool_wear_min rule 이상치 수: 0
+2026-01-12 18:47:33,862 - INFO - air_temp_k iqr 이상치 수: 0
+2026-01-12 18:47:33,863 - INFO - process_temp_k iqr 이상치 수: 0
+2026-01-12 18:47:33,864 - INFO - rotational_speed_rpm iqr 이상치 수: 418
+2026-01-12 18:47:33,865 - INFO -      rotational_speed_rpm
+14                   2035
+50                   2861
+70                   1924
+101                  1991
+155                  1987
+2026-01-12 18:47:33,869 - INFO - torque_nm iqr 이상치 수: 69
+2026-01-12 18:47:33,869 - INFO -      torque_nm
+50         4.6
+194       10.7
+380       12.8
+463        4.2
+603       71.6
+2026-01-12 18:47:33,874 - INFO - tool_wear_min iqr 이상치 수: 0
+2026-01-12 18:47:34,961 - INFO - DB 저장 완료: sensor_anomaly 테이블
+2026-01-12 18:52:25,207 - INFO - package: mysql.connector.plugins
+2026-01-12 18:52:25,207 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:52:25,207 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:52:25,207 - INFO - package: mysql.connector.plugins
+2026-01-12 18:52:25,207 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:52:25,208 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:52:25,431 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:52:25,433 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:52:25,434 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:52:25,435 - INFO -      rotational_speed_rpm
+50                   2861
+194                  2678
+298                  2129
+305                  2129
+344                  2448
+2026-01-12 18:52:25,438 - INFO - torque_nm rule 이상치 수: 25
+2026-01-12 18:52:25,439 - INFO -      torque_nm
+50         4.6
+463        4.2
+603       71.6
+847        5.6
+880       76.2
+2026-01-12 18:52:25,443 - INFO - tool_wear_min rule 이상치 수: 0
+2026-01-12 18:52:25,444 - INFO - air_temp_k iqr 이상치 수: 0
+2026-01-12 18:52:25,445 - INFO - process_temp_k iqr 이상치 수: 0
+2026-01-12 18:52:25,446 - INFO - rotational_speed_rpm iqr 이상치 수: 418
+2026-01-12 18:52:25,447 - INFO -      rotational_speed_rpm
+14                   2035
+50                   2861
+70                   1924
+101                  1991
+155                  1987
+2026-01-12 18:52:25,450 - INFO - torque_nm iqr 이상치 수: 69
+2026-01-12 18:52:25,450 - INFO -      torque_nm
+50         4.6
+194       10.7
+380       12.8
+463        4.2
+603       71.6
+2026-01-12 18:52:25,454 - INFO - tool_wear_min iqr 이상치 수: 0
+2026-01-12 18:52:26,619 - INFO - DB 저장 완료: sensor_anomaly 테이블
+2026-01-12 18:53:20,533 - INFO - package: mysql.connector.plugins
+2026-01-12 18:53:20,533 - INFO - plugin_name: caching_sha2_password
+2026-01-12 18:53:20,533 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-12 18:53:20,534 - INFO - package: mysql.connector.plugins
+2026-01-12 18:53:20,534 - INFO - plugin_name: mysql_native_password
+2026-01-12 18:53:20,535 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-12 18:53:20,769 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-12 18:53:20,770 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-12 18:53:20,771 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-12 18:53:20,772 - INFO -      rotational_speed_rpm
+50                   2861
+194                  2678
+298                  2129
+305                  2129
+344                  2448
+2026-01-12 18:53:20,775 - INFO - torque_nm rule 이상치 수: 25
+2026-01-12 18:53:20,776 - INFO -      torque_nm
+50         4.6
+463        4.2
+603       71.6
+847        5.6
+880       76.2
+2026-01-12 18:53:20,780 - INFO - tool_wear_min rule 이상치 수: 0
+2026-01-12 18:53:20,781 - INFO - air_temp_k iqr 이상치 수: 0
+2026-01-12 18:53:20,782 - INFO - process_temp_k iqr 이상치 수: 0
+2026-01-12 18:53:20,783 - INFO - rotational_speed_rpm iqr 이상치 수: 418
+2026-01-12 18:53:20,784 - INFO -      rotational_speed_rpm
+14                   2035
+50                   2861
+70                   1924
+101                  1991
+155                  1987
+2026-01-12 18:53:20,787 - INFO - torque_nm iqr 이상치 수: 69
+2026-01-12 18:53:20,788 - INFO -      torque_nm
+50         4.6
+194       10.7
+380       12.8
+463        4.2
+603       71.6
+2026-01-12 18:53:20,791 - INFO - tool_wear_min iqr 이상치 수: 0
+2026-01-12 18:53:21,841 - INFO - DB 저장 완료: sensor_anomaly 테이블
+2026-01-13 15:15:19,400 - INFO - package: mysql.connector.plugins
+2026-01-13 15:15:19,401 - INFO - plugin_name: caching_sha2_password
+2026-01-13 15:15:19,401 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-13 15:15:19,401 - INFO - package: mysql.connector.plugins
+2026-01-13 15:15:19,401 - INFO - plugin_name: mysql_native_password
+2026-01-13 15:15:19,402 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-13 15:15:19,737 - INFO - air_temp_k rule 이상치 수: 0
+2026-01-13 15:15:19,742 - INFO - process_temp_k rule 이상치 수: 0
+2026-01-13 15:15:19,748 - INFO - rotational_speed_rpm rule 이상치 수: 164
+2026-01-13 15:15:19,754 - INFO -      rotational_speed_rpm
+50                   2861
+194                  2678
+298                  2129
+305                  2129
+344                  2448
+2026-01-13 15:15:19,765 - INFO - torque_nm rule 이상치 수: 25
+2026-01-13 15:15:19,767 - INFO -      torque_nm
+50         4.6
+463        4.2
+603       71.6
+847        5.6
+880       76.2
+2026-01-13 15:15:19,775 - INFO - tool_wear_min rule 이상치 수: 0
+2026-01-13 15:15:19,777 - INFO - delta_temp rule 이상치 수: 0
+2026-01-13 15:15:19,781 - INFO - air_temp_k iqr 이상치 수: 0
+2026-01-13 15:15:19,783 - INFO - process_temp_k iqr 이상치 수: 0
+2026-01-13 15:15:19,785 - INFO - rotational_speed_rpm iqr 이상치 수: 418
+2026-01-13 15:15:19,786 - INFO -      rotational_speed_rpm
+14                   2035
+50                   2861
+70                   1924
+101                  1991
+155                  1987
+2026-01-13 15:15:19,793 - INFO - torque_nm iqr 이상치 수: 69
+2026-01-13 15:15:19,795 - INFO -      torque_nm
+50         4.6
+194       10.7
+380       12.8
+463        4.2
+603       71.6
+2026-01-13 15:15:19,803 - INFO - tool_wear_min iqr 이상치 수: 0
+2026-01-13 15:15:19,805 - INFO - delta_temp iqr 이상치 수: 0
+2026-01-13 15:15:20,969 - INFO - DB 저장 완료: sensor_anomaly 테이블

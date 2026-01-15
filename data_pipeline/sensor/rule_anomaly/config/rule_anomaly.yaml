@@ -1,0 +1,29 @@
+# threshold: 이상치 판단 기준 정책
+# output : 결과를 어디에 저장할지
+# features : 어떤 파생 feature를 쓸지 스위치
+# columns : 파이프라인에서 어떤 컬럼을 이상치 탐지 대상으로 쓸 지 유연하게 설정하기 위해서
+# --> 나중에 delta_temp 같은 파생 컬럼이 추가되면, 분석 대상 컬럼 목록에 넣을 수 있음
+
+columns:
+  - sensor_air_temp_k
+  - sensor_process_temp_k
+  - sensor_rot_speed_rpm
+  - sensor_torque_nm
+  - sensor_tool_wear_min
+  - sensor_delta_temp  # 파생 feature, 사용 여부는 features.use_delta_temp로 제어
+
+threshold:
+  method: stat
+  sigma: 3 # stat 방식일 때 시그마 값
+  iqr_multiplier: 1.5  # IQR 방식일 때 곱할 값
+
+output:
+  table_name: sensor_rule_anomaly # 이상치 결과를 저장할 db 테이블 이름
+  save_columns: # db에 실제 저장할 컬럼 지정
+    - sensor_air_temp_k_rule_anomaly
+    - sensor_torque_nm_rule_anomaly
+    - sensor_delta_temp_rule_anomaly
+    - rule_anomaly
+
+features:
+  use_delta_temp: true # delta_temp 파생 feature를 만들지 여부
