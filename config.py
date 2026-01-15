@@ -1,6 +1,10 @@
 import os
 from sqlalchemy import create_engine
 import  yaml
+from dotenv import load_dotenv
+
+# .env 파일 읽기
+load_dotenv()
 
 # 프로젝트 루트 기준 계산
 
@@ -15,11 +19,11 @@ SENSOR_RAW_CLEAN_CSV = os.path.join(DATA_DIR, "sensor_raw_clean.csv")
 
 # DB 접속 성보
 DB_CONFIG = {
-  "host": "127.0.0.1",
-  "port": 3306,
-  "user": "psh",
-  "password": "1234",
-  "database": "ml_db"
+  "host": os.getenv("DB_HOST"),
+  "port": int(os.getenv("DB_PORT")),
+  "user": os.getenv("DB_USER"),
+  "password": os.getenv("DB_PASSWORD"),
+  "database": os.getenv("DB_NAME")
 }
 
 # SQLALchemy Engine 생성 함수
